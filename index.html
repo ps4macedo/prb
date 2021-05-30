@@ -60,7 +60,7 @@ mymenu.style.display="block";
      <button  onMouseOver="msgs.innerHTML='<U>Exploit de Sleirsgoevy</U><br><br>Kernel Exploit 28th April.<br>With 8 Second Delay.<br>This is a full chain exploit for PS4 firmware 7.55.<br>Basically this is TheFlows POC together with PS4-specific kROP & kernel patches.'"; onmouseout="msgs.innerHTML=''" onclick="load_exploit(); return false"><img src="img/exploit.png"></button>
      <button  onMouseOver="msgs.innerHTML='<U>Exploit de Sleirsgoevy</U><br><br>Old Kernel Exploit.<br>With 20 Second Delay.<br>This is a full chain exploit for PS4 firmware 7.55.<br>Basically this is TheFlows POC together with PS4-specific kROP & kernel patches.'"; onmouseout="msgs.innerHTML=''" onclick="load_exploit_old(); return false"><img src="img/exploit.png"></button>
      <button  onMouseOver="msgs.innerHTML='<U>Exploit de Sleirsgoevy</U><br><br>Kernel Exploit 20/05/2021.<br>With 12 Second Delay.<br>This is a full chain exploit for PS4 firmware 7.55.<br>Basically this is TheFlows POC together with PS4-specific kROP & kernel patches.'"; onmouseout="msgs.innerHTML=''" onclick="load_exploit20052021(); return false"><img src="img/exploit.png"></button>
-     <button  onMouseOver="msgs.innerHTML='<U>Exploit de Sleirsgoevy</U><br><br>Kernel Exploit 27/05/2021.<br>With 16 Second Delay.<br>This is a full chain exploit for PS4 firmware 7.55.<br>Basically this is TheFlows POC together with PS4-specific kROP & kernel patches.'"; onmouseout="msgs.innerHTML=''" onclick="load_exploit27052021(); return false"><img src="img/exploit.png"></button>
+     <button  onMouseOver="msgs.innerHTML='<U>Exploit de Sleirsgoevy</U><br><br>Kernel Exploit versão de 27/05/2021.<br>Ativação em 16 segundos.<br>Esta é uma exploração completa para o firmware PS4 7.55.<br>Basicamente, este é o TheFlows POC junto com os patches KROP e kernel específicos do PS4.'"; onmouseout="msgs.innerHTML=''" onclick="load_exploit27052021(); return false"><img src="img/exploit.png"></button>
     </div>
   </div>
   
@@ -184,7 +184,7 @@ mymenu.style.display="block";
 	  <br><br><br><br><br><br><br><br><br>
 	  <h1 id=msgs style='font-size:30px;text-align:center;color:#ee596f'></h1>
       <div style="text-align:left;position:fixed;left:10px;bottom:10px;width:100%;font-size:20px;color:#3dff8e">
-      <div >Pass = <span id=passCounter></span>&nbsp;&nbsp;:&nbsp;&nbsp;Fail = <span id=failCounter></span></div>
+      <div >Passou = <span id=passCounter></span>&nbsp;&nbsp;:&nbsp;&nbsp;Falhou = <span id=failCounter></span></div>
       Versão do firmware deste PS4: <span id="PS4fw"></span><br>
 	  Agradecimentos: Leeful - KiiWii - Sleirsgoevy - theflow - Al Azif - Joonie86 - Team Synacktiv - e todos os desenvolvedores na cena ps4.
 	  </div>
@@ -228,7 +228,7 @@ function loadScript(){getScript("common/exp_jailbreak20052021.js",function(){set
 }
 
 function load_exploit27052021(){
-msgs.innerHTML="Loading Exploit de 27/05/2021. Please Wait ...";
+msgs.innerHTML="Carregando o exploit de 27/05/2021. Por favor, aguarde...";
 function getScript(source,callback){var gs=document.createElement('script');gs.src=source;gs.onload=callback;gs.async=false;document.body.appendChild(gs);}
 function loadScript(){getScript("common/exp_jailbreak27052021.js",function(){setTimeout(jailbreak,500);});}loadScript();
 }
