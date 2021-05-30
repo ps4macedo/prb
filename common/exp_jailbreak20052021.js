@@ -156703,3 +156703,12 @@ var printf_ans = read_mem_as_string(printf_buf, printf_buf_end-printf_buf);
 var _ = malloc_nogc.pop();
 var _ = malloc_nogc.pop();
 var _ = malloc_nogc.pop();
+if (main_ret == 179 || main_ret == 0) {
+	localStorage.passcount = ++localStorage.passcount;window.passCounter.innerHTML=localStorage.passcount;
+	localStorage.infoDesb = "Pronto para as cargas uteis";window.infoDesb.innerHTML=localStorage.infoDesb; 
+	window.msgs.innerHTML="<h1 style='font-size:30px;'>Exploração concluída ✔<br>Pronto para as cargas úteis.";
+} 
+else {
+	localStorage.failcount = ++localStorage.failcount;window.failCounter.innerHTML=localStorage.failcount;
+  window.msgs.innerHTML="<h1 style='font-size:30px;'>Exploit failed! - Reboot your PS4 and try again.</h1>";
+}
