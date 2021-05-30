@@ -204,25 +204,25 @@ if (localStorage.failcount == null) localStorage.failcount=0;
 window.failCounter.innerHTML=localStorage.failcount;
 
 function load_exploit_new(){
-msgs.innerHTML="Loading New Exploit Please Wait ...";
+msgs.innerHTML="Carregando o exploit. Por favor, aguarde...";
 function getScript(source,callback){var gs=document.createElement('script');gs.src=source;gs.onload=callback;gs.async=false;document.body.appendChild(gs);}
 function loadScript(){getScript("common/exp_jailbreak_new.js",function(){setTimeout(jailbreak,000);});}loadScript();
 }
 
 function load_exploit(){
-msgs.innerHTML="Loading Exploit Please Wait ...";
+msgs.innerHTML="Carregando o exploit. Por favor, aguarde...";
 function getScript(source,callback){var gs=document.createElement('script');gs.src=source;gs.onload=callback;gs.async=false;document.body.appendChild(gs);}
 function loadScript(){getScript("common/exp_jailbreak.js",function(){setTimeout(jailbreak,000);});}loadScript();
 }
 
 function load_exploit_old(){
-msgs.innerHTML="Loading old Exploit Please Wait ...";
+msgs.innerHTML="Carregando o exploit old. Por favor, aguarde...";
 function getScript(source,callback){var gs=document.createElement('script');gs.src=source;gs.onload=callback;gs.async=false;document.body.appendChild(gs);}
 function loadScript(){getScript("common/exp_jailbreak_old.js",function(){setTimeout(jailbreak,500);});}loadScript();
 }
 
 function load_exploit20052021(){
-msgs.innerHTML="Loading Exploit de 20/05/2021. Please Wait ...";
+msgs.innerHTML="Carregando o exploit de 20/05/2021. Por favor, aguarde...";
 function getScript(source,callback){var gs=document.createElement('script');gs.src=source;gs.onload=callback;gs.async=false;document.body.appendChild(gs);}
 function loadScript(){getScript("common/exp_jailbreak20052021.js",function(){setTimeout(jailbreak,500);});}loadScript();
 }
