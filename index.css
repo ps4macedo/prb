@@ -1,5 +1,5 @@
 button{
-          background:rgba(0,0,0,0.3);
+          background-color:transparent;
           width:9.5%;
           height:145px;
 		  
@@ -24,12 +24,12 @@ button img{
   width: inherit;
 } 
 .button2:hover {
-  background:#242424;
+  background:#000064;
   border:2px solid #ffffff;
   box-shadow:0 5px 0 #cccccc;
 }
 .bg {
-	background-color:#000000;
+	background-color:#000024;
 	background-image:url(bg1.png);
 	background-attachment: fixed;
 	background-size:100%;
