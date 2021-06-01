@@ -66,6 +66,13 @@ payload\pl_ftp.bin
 payload\pl_FWspoof.bin
 payload\pl_goldhen_1.0.bin
 payload\pl_goldhen_1.1.bin
+payload\pl_GTA_ArabicGuy100.bin
+payload\pl_GTA_ArabicGuy127.bin
+payload\pl_GTA_ArabicGuy132.bin
+payload\pl_GTA_NativeCaller100.bin
+payload\pl_GTA_NativeCaller127.bin
+payload\pl_GTA_NativeCaller132.bin
+payload\pl_GTA_Lamance132.bin
 payload\pl_henb.bin
 payload\pl_historyblocker.bin
 payload\pl_kerneldumper.bin
