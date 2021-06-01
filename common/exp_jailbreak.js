@@ -149898,7 +149898,7 @@ var _ = malloc_nogc.pop();
 var _ = malloc_nogc.pop();
 if (main_ret == 179 || main_ret == 0) {
 	localStorage.passcount = ++localStorage.passcount;window.passCounter.innerHTML=localStorage.passcount;
-	localStorage.infoDesb = "Pronto para as cargas uteis.";window.infoDesb.innerHTML=localStorage.infoDesb; 
+	localStorage.infoDesb = "Pronto, agora pode carregar as cargas uteis.";window.infoDesb.innerHTML=localStorage.infoDesb; 
 	window.msgs.innerHTML="<h1 style='font-size:30px;'>Exploração do kernel concluída ✔<br><font style='color:#ee596f'>Pronto para as cargas úteis.</font>";
 } 
 else {
