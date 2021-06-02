@@ -24,7 +24,7 @@ button img{
   width: inherit;
 } 
 .button2:hover {
-  background:#000064;
+  background:#00005c;
   border:2px solid #ffffff;
   box-shadow:0 5px 0 #cccccc;
 }
