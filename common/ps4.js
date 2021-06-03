@@ -414,6 +414,7 @@ function prepareUAF() {
 /* HTMLElement spray */
 function sprayHTMLTextArea() {
 	debug_log("");
+	debug_log("");
 	debug_log("[+] Spraying HTMLTextareaElement ...");
 
 	let textarea_div_elem = g_textarea_div_elem = document.createElement("div");
