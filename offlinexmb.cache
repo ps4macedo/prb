@@ -39,6 +39,7 @@ img\kernelDumper.png
 img\linux.png
 img\mira.png
 img\moduledumper.png
+img\prb.png
 img\restore.png
 img\rifrenamer.png
 img\savedata.png
@@ -78,6 +79,7 @@ payload\pl_OfflineCacheBackup.bin
 payload\pl_OfflineCacheRestore.bin
 payload\pl_ps4debug.bin
 payload\pl_Restore.bin
+payload\pl_PrbCacheRestore.bin
 payload\pl_rifrenamer.bin
 payload\pl_SaveDataBackup.bin
 payload\pl_SaveDataRestore.bin

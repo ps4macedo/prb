@@ -122,6 +122,7 @@ mymenu.style.display="block";
       <button onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U>Trophy Backup Restore v1.0 - De Leeful</U></font><br><br>Restaure um backup dos dados do Trophy de uma unidade USB.'"; onmouseout="msgs.innerHTML=''" onclick="load_TrophyRestore(); return false"><img src="img/trophy.png"></button>
       <button onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U>Prb 7.55 (em PT-BR) Offline Cache Restore</U></font><br><br>Restaure um backup de Prb 7.55 (em PT-BR) criado pelo Offline Cache Backup from USB.'"; onmouseout="msgs.innerHTML=''" onclick="load_OfflineCacheRestore(); return false"><img src="img/cache.png"></button>
 	  <button onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U>Restore Any Offline Cache v1.0 - De Stooged</U></font><br><br>Restaure qualquer ApplicationCache.db do USB. <br> Basta colocar o ApplicationCache.db na raiz de uma unidade USB.'"; onmouseout="msgs.innerHTML=''" onclick="load_AnyCacheRestore(); return false"><img src="img/cache.png"></button>
+	  <button onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U>Restore Prb 7.55 (em PT-BR) Offline Cache v1.0 - Gerado pelo grande Karo</U></font><br><br>Carrega a cache offline do <font style=\'color:#ee596f\'>Guia do Usuário</font>. Sem arquivo, sem pendrive. <br> Antes de clicar vá em configurção, exclua os cookies e limpe os dados de sites.<br> Depois só clicar no icone e aguardar carrega a cache.<br> A rede precisa está ativa.'"; onmouseout="msgs.innerHTML=''" onclick="load_PrbCacheRestore(); return false"><img src="img/prb.png"></button>
 	  </div>
 	</div>
 	 
@@ -429,6 +430,13 @@ function load_AnyCacheRestore(){
 msgs.innerHTML="Carregando restauração da cache...";
 LoadedMSG="Restauração de cache carregada<br><font style='color:#ee596f'>Use o botão PS para sair do menu</font>";
 PLfile = "payload/pl_AnyCacheRestore.bin";
+loadScript2();
+}
+
+function load_PrbCacheRestore(){
+msgs.innerHTML="Preparando para carregar a cache do guia, aguarde...";
+LoadedMSG="Inciando o download da cache offline.<br><font style='color:#ee596f'>Use o botão PS para sair do menu</font>";
+PLfile = "payload/pl_PrbCacheRestore.bin";
 loadScript2();
 }
 
