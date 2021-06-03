@@ -8,7 +8,6 @@ common\exp_jailbreak20052021.js
 common\exp_jailbreak27052021.js
 common\exp_jailbreak.js
 common\exp_jailbreak_new.js
-common\exp_jailbreak_old.js
 common\exp_loaderBL.js
 common\exp_loaderPL.js
 common\int64.js
@@ -39,7 +38,6 @@ img\kernelDumper.png
 img\linux.png
 img\mira.png
 img\moduledumper.png
-img\prb.png
 img\restore.png
 img\rifrenamer.png
 img\savedata.png

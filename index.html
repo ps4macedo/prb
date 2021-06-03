@@ -60,7 +60,6 @@ mymenu.style.display="block";
      <button onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U>Exploit de Sleirsgoevy  </U></font><br><br>Exploração do kernel versão de 20/05/2021. Ativação em 16 segundos.<br>Esta é uma exploração completa para o console PS4 com firmware 7.55.<br>Basicamente, este é o TheFlows POC junto com os patches KROP e kernel específicos do PS4.'"; onmouseout="msgs.innerHTML=''" onclick="load_exploit20052021(); return false"><img src="img/exploit.png"></button>
 	 <button  style='border:4px solid #ee596f' onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U>Exploit de Sleirsgoevy - mais estável no meu PS4</U></font></font><br> <br> Exploração do kernel versão de 02/05/2021, com 12 segundos de atraso. <br> Este é um exploit de cadeia completa para o firmware do PS4 7.55. <br> Basicamente, este é TheFlows POC junto com patches KROP e kernel específicos do PS4.'"; onmouseout="msgs.innerHTML=''" onclick="load_exploit_new(); return false"><img src="img/exploit.png"></button>
      <button  onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U> Exploit de Sleirsgoevy </U></font> <br> <br> Exploração do kernel versão de 28/04/2021, com 8 segundos de atraso. <br> Este é um exploit de cadeia completa para o firmware do PS4 7.55. <br> Basicamente, este é TheFlows POC junto com patches KROP e kernel específicos do PS4.'"; onmouseout="msgs.innerHTML=''" onclick="load_exploit(); return false"><img src="img/exploit.png"></button>
-     <button  onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U>Exploit de Sleirsgoevy</U></font><br><br>Exploração do kernel antigo, com atraso de 20 segundos. <br> Esta é uma exploração de cadeia completa para o firmware PS4 7.55.<br>Basicamente, este é TheFlows POC junto com patches KROP e kernel específicos do PS4.'"; onmouseout="msgs.innerHTML=''" onclick="load_exploit_old(); return false"><img src="img/exploit.png"></button>
     </div>
   </div>
   
@@ -122,7 +121,7 @@ mymenu.style.display="block";
       <button onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U>Trophy Backup Restore v1.0 - De Leeful</U></font><br><br>Restaure um backup dos dados do Trophy de uma unidade USB.'"; onmouseout="msgs.innerHTML=''" onclick="load_TrophyRestore(); return false"><img src="img/trophy.png"></button>
       <button onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U>Prb 7.55 (em PT-BR) Offline Cache Restore</U></font><br><br>Restaure um backup de Prb 7.55 (em PT-BR) criado pelo Offline Cache Backup from USB.'"; onmouseout="msgs.innerHTML=''" onclick="load_OfflineCacheRestore(); return false"><img src="img/cache.png"></button>
 	  <button onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U>Restore Any Offline Cache v1.0 - De Stooged</U></font><br><br>Restaure qualquer ApplicationCache.db do USB. <br> Basta colocar o ApplicationCache.db na raiz de uma unidade USB.'"; onmouseout="msgs.innerHTML=''" onclick="load_AnyCacheRestore(); return false"><img src="img/cache.png"></button>
-	  <button onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U>Restore Prb 7.55 (em PT-BR) Offline Cache v1.0 - Gerado pelo grande Karo</U></font><br><br>Carrega a cache offline do <font style=\'color:#ee596f\'>Guia do Usuário</font>. Sem arquivo, sem pendrive. <br> Antes de clicar vá em configurção, exclua os cookies e limpe os dados de sites.<br> Depois só clicar no icone e aguardar carrega a cache.<br> A rede precisa está ativa.'"; onmouseout="msgs.innerHTML=''" onclick="load_PrbCacheRestore(); return false"><img src="img/prb.png"></button>
+	  <button onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U>Restore Prb 7.55 (em PT-BR) Offline Cache v1.0 - Gerado pelo grande Karo</U></font><br><br>Carrega a cache offline do <font style=\'color:#ee596f\'>Guia do Usuário</font>. Sem arquivo, sem pendrive. <br> Antes de clicar vá em configurção, exclua os cookies e limpe os dados de sites.<br> Depois só clicar no icone e aguardar carrega a cache.<br> A rede precisa está ativa.'"; onmouseout="msgs.innerHTML=''" onclick="load_PrbCacheRestore(); return false"><img src="img/cache.png"></button>
 	  </div>
 	</div>
 	 
@@ -225,12 +224,6 @@ function load_exploit(){
 msgs.innerHTML="Carregando o exploit. Por favor, aguarde...";
 function getScript(source,callback){var gs=document.createElement('script');gs.src=source;gs.onload=callback;gs.async=false;document.body.appendChild(gs);}
 function loadScript(){getScript("common/exp_jailbreak.js",function(){setTimeout(jailbreak,000);});}loadScript();
-}
-
-function load_exploit_old(){
-msgs.innerHTML="Carregando o exploit. Por favor, aguarde...";
-function getScript(source,callback){var gs=document.createElement('script');gs.src=source;gs.onload=callback;gs.async=false;document.body.appendChild(gs);}
-function loadScript(){getScript("common/exp_jailbreak_old.js",function(){setTimeout(jailbreak,500);});}loadScript();
 }
 
 function load_exploit20052021(){
