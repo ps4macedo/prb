@@ -84,6 +84,7 @@ payload\pl_SaveDataBackup.bin
 payload\pl_SaveDataRestore.bin
 payload\pl_TrophyBackup.bin
 payload\pl_TrophyRestore.bin
+payload\pl_toolbox.bin
 payload\pl_webactivator.bin
 payload\pl_webrte.bin
 payload\fan_control\pl_fancontrol50.bin
@@ -93,5 +94,3 @@ payload\fan_control\pl_fancontrol65.bin
 payload\fan_control\pl_fancontrol70.bin
 payload\fan_control\pl_fancontrol75.bin
 payload\fan_control\pl_fancontrol80.bin
-payload\fan_control\pl_fancontrol85.bin
-payload\fan_control\pl_fancontrol90.bin
